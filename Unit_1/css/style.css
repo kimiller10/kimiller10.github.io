@@ -1,7 +1,28 @@
 body{
-background-color: maroon;
+background-color: #fcebea;
 }
 
-h1, p{
-color:yellow;
+h1{
+color:#4996e6;
+text-align: center;
+font-size: 60px;
+font-style: normal;
+font-family: sans-serif;
+}
+
+p {
+color:#62138d;
+text-align: center;
+font-family: sans-serif;
+font-weight: bold; 
+ list-style-position: inside;
+  
+}
+
+ul, li {
+color:#2aaf18;
+text-align: center;
+font-family: sans-serif;
+  list-style-position: inside;
+  
 }
