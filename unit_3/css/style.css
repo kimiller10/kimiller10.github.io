@@ -1,0 +1,47 @@
+body{
+background-color:#F2F2F2;
+}
+header{
+background-color:white;
+}
+body{
+font-family:helvetica;
+}
+li{
+font-size:20px;
+font-family:helvetica;
+}
+a:link{
+text-decoration:none;
+color:black;
+}
+a:hover{
+color:green;
+}
+h1{
+font-size:100px;
+color:black;
+font-weight:bold;
+text-transform:uppercase;
+letter-spacing:-4px;
+}
+main p{
+font-size:35px;
+font-color:black;
+}
+
+article{
+background-color:white;
+}
+main a{
+font-size:40px;
+text-transform:uppercase;
+font-weight:bold;
+}
+
+article p{
+font-size:15px;
+}
+h2{
+font-size:25px;
+}
