@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800&display=swap');
+* { margin:0; padding:0; box-sizing:border-box; }
+body{
+    background-color:#F2F2F2;
+    font-family: 'Catamaran', sans-serif;
+}
+address{
+	font-weight:400;
+	font-size:28px;
+}
+header{
+    background-color:#FFED74;
+    border: 1px black solid;
+    padding:20px;
+}
+header a {
+	font-size:28px;
+	line-height:1em;
+}
+nav{
+    background-color:#E8C66A;
+    border: 1px black solid;
+    padding:20px;
+}
+nav a {
+	font-size:40px;
+    color:inherit;
+    padding:1em;
+    color:#408a95;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    color:#efe98b;
+}
+h1{
+	font-weight:700px;
+	font-size:38px;
+	color:white;
+
+}
+#sale{
+	background-color:#e070ab;
+}
+h2{
+	font-weight:800;
+    font-size:130px;
+    text-transform:uppercase;
+    line-height:1em;
+}
+#hero{
+  background-color:#FFE2B8;
+    border: 1px black solid;
+    padding:20px;
+}
+#hero p{
+	font-family: 'Muli', sans-serif;
+    font-size:50px;
+    font-weight:500;
+    line-height:2em;
+}
+
+article{
+	background-color:#E89C6C;
+    border: 1px black solid;
+    padding:20px;
+}
+#hero a{
+	font-weight:600;
+    font-size:45px;
+    font-weight:bold;
+    line-height:3em;
+    text-decoration:none;
+    color:#408a95;
+}
+
+#hero a:hover{
+	color:#efe98b;
+}
+h3{
+	font-family: 'Catamaran', sans-serif;
+	font-weight:600;
+    font-size:35px;
+}
+#featured p{
+	font-family: 'Muli', sans-serif;
+	font-weight:300;
+	font-size:22px;
+}
+h4{
+	font-family: 'Catamaran', sans-serif;
+	font-weight:600;
+    font-size:45px;
+}
+img{
+	width:300px;
+	padding:10px;
+}
+footer img{
+	width:70px;
+}
+footer{
+  background-color:#FF957E;
+    border: 1px black solid;
+    padding:20px;
+}
+#featured a{
+    text-decoration:none;
+    color:#408a95;
+    font-weight:300;
+	font-size:22px;
+}
+#featured a:hover{
+	color:#efe98b;
+}
