@@ -7,13 +7,13 @@ body{
 }
 address{
 	font-weight:400;
-	font-size:28px;
+	font-size:18px;
 	display:block;
 	float:right;
 }
 #address1{
 	font-weight:400;
-	font-size:28px;
+	font-size:18px;
 	display:block;
 	float:left;
 }
@@ -25,17 +25,17 @@ header{
     background-color:white;
 }
 header a {
-	font-size:28px;
+	font-size:18px;
 	line-height:1em;
 
 }
 nav a {
-	font-size:40px;
+	font-size:20px;
     color:inherit;
     color:#408a95;
 }
 nav {
-    padding:20px;
+    padding:10px;
 }
 .clearfix:after {
   visibility: hidden;
@@ -66,25 +66,25 @@ a:hover{
 #sale{
 	background-color:#e070ab;
 	text-align:center;
-	padding:20px;
+	padding:10px;
 }
 h1{
 	font-weight:700px;
-	font-size:60px;
+	font-size:30px;
 	color:white;
 	background-color:
 	text-align:center;
 }
 h2{
 	font-weight:800;
-    font-size:120px;
+    font-size:80px;
     text-transform:uppercase;
     line-height:1em;
     text-align:center;
 }
 #hero p{
 	font-family: 'Muli', sans-serif;
-    font-size:40px;
+    font-size:30px;
     font-weight:500;
     line-height:2em;
     text-align:center;
@@ -94,7 +94,7 @@ h2{
 
 #hero a{
 	font-weight:600;
-    font-size:45px;
+    font-size:40px;
     font-weight:bold;
     line-height:3em;
     text-decoration:none;
@@ -107,16 +107,16 @@ h2{
 
 article{
 	background-color:white;
-	width: 700px;
-	padding: 10px;
-	margin: 0 10px;
+	width: 400px;
+	padding: 5px;
+	margin: 0 5px;
 	float: left;
 }
 
 h3{
 	font-family: 'Catamaran', sans-serif;
 	font-weight:600;
-    font-size:45px;
+    font-size:25px;
     	text-align:center;
 }
 #featured {
@@ -124,31 +124,31 @@ h3{
 	justify-content: center;
 	margin: 0 auto;
 	width:auto;
-	padding:40px 10px 40px 10px;
+	padding:10px 5px;
 }
 #featured p{
 	font-family: 'Muli', sans-serif;
 	font-weight:300;
-	font-size:30px;
+	font-size:15px;
 	text-align:center;
-	padding:20px;
+	padding:5px;
 }
 #featured a:hover{
 	color:#efe98b;
 }
 #featured a{
-	font-size:30px;
+	font-size:20px;
     text-decoration:none;
     color:#408a95;
     text-align:center;
 }
 
 #featured img{
-	width: 650px;
+	width: 350px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-padding:20px;
+padding:10px;
 }
 h4{
 	font-family: 'Catamaran', sans-serif;
@@ -156,9 +156,9 @@ h4{
     font-size:45px;
 }
 img{
-	width:400px;
+	width:200px;
 	padding:10px;
-	margin:20px;
+	margin:10px;
 }
 footer img{
 	width:70px;
@@ -169,4 +169,9 @@ footer{
 	background-color:#A9A9A9;
 	display:block;
 	padding:20px;
+}
+footer iframe{
+float:right;
+clear:left;
+
 }
