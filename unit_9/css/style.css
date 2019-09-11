@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800&display=swap');
+* { margin:0; padding:0; box-sizing:border-box; }
+body{
+    background-color:#F2F2F2;
+    font-family: 'Catamaran', sans-serif;
+    font-size:20px;
+}
+
+#logo{
+width:150px;
+padding:.4em;
+}
+address{
+	font-weight:400;
+	font-size:.85em;
+	float:right;
+}
+
+#address1{
+	font-weight:400;
+	font-size:.85em;
+float:left;
+	display:block;
+}
+
+#tele{
+	display:block;
+	float:right;
+clear:both;
+
+}
+#tele1{
+	display:block;
+clear:both;
+	font-weight:400;
+	font-size:.85em;
+}
+header{
+    background-color:white;
+}
+
+header a {
+	font-size:.85em;
+	line-height:1em;
+}
+
+nav a {
+	font-size:1em;
+    color:inherit;
+    color:#408a95;
+}
+
+nav {
+    padding:.25em;
+	text-align:center;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+a{
+    text-decoration:none;
+    display: inline-block;
+    padding: 1em;
+}
+
+a:hover{
+    color:#efe98b;
+}
+
+
+h1{
+	font-weight:700;
+	font-size:1.25em;
+	color:white;
+	text-align:center;
+	background-color:#e070ab;
+	text-align:center;
+	padding:.25em;
+}
+
+h2{
+	font-weight:800;
+    font-size:3em;
+    text-transform:uppercase;
+    line-height:1em;
+    text-align:center;
+
+  color: white;
+
+}
+
+#hero p{
+	font-family: 'Muli', sans-serif;
+    font-size:1.5em;
+    font-weight:500;
+    line-height:2em;
+
+  color: white;
+
+}
+
+#hero a{
+	font-weight:600;
+    font-size:1.5em;
+    font-weight:bold;
+    line-height:3em;
+    text-decoration:none;
+    color:#408a95;
+
+
+}
+
+#hero a:hover{
+	color:#efe98b;
+}
+
+#hero{
+padding: 3em;
+	text-align:center;
+	 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image.jpg");
+	  /* Set a specific height */
+width: 100%;
+height:700px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+article{
+	background-color:white;
+	width: 33.33%;
+	padding: .25em;
+	margin: 0 5px;
+	text-align:center;
+}
+
+h3{
+	font-family: 'Catamaran', sans-serif;
+	font-weight:600;
+    font-size:1.25em;
+    	text-align:center;
+}
+
+#featured {
+	display: flex;
+	margin: 0 auto;
+	width:100%;
+	padding:.5em .25em;
+}
+
+#featured p{
+	font-family: 'Muli', sans-serif;
+	font-weight:300;
+	font-size:.75em;
+	text-align:center;
+	padding:.25em;
+}
+
+#featured a:hover{
+	color:#efe98b;
+}
+
+#featured a{
+	font-size:1em;
+    text-decoration:none;
+    color:#408a95;
+    text-align:center;
+}
+
+#featured img{
+width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+padding:.5em;
+}
+
+h4{
+	font-family: 'Catamaran', sans-serif;
+	font-weight:600;
+    font-size:1.5em;
+}
+
+
+footer{
+	background-color:#A9A9A9;
+	padding:.5em;
+}
+
+footer iframe{
+clear:left;
+}
+
+@media only screen and (max-width: 522px) {
+ a{
+ display:block;
+ padding:.65em;
+ }
+ #hero{
+ height: 500px;
+ }
+ }
+ 
+  @media only screen and (max-width: 750px) {
+   	#featured{	
+	display:block;
+	width:100%;
+	}
+	article{
+	width:90%;
+	}
+  }
+  
+   @media only screen and (max-width: 375px){
+   #tele{
+	font-size:.75em;
+   }
+   footer iframe{
+   width:350px;
+   }
+    h2{
+    font-size:2em;
+    line-height:.5em;
+
+}
+#hero p{
+    font-size:.5em;
+    line-height:1.5em;
+
+}
+
+#hero a{
+    font-size:.5em;
+}
+   }
+
+ @media only screen and (max-width: 1027px) {
+ 	#featured{	
+	float:none;
+	width:auto;
+	}
+	article{
+	margin:1em;
+	}
+ h2{
+    font-size:2.5em;
+    line-height:1em;
+
+}
+#hero p{
+    font-size:1em;
+    line-height:2em;
+
+}
+
+#hero a{
+    font-size:1em;
+}
+}
